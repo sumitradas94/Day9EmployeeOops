@@ -16,8 +16,11 @@ namespace EmployeeWageproblem
             // EmployeeSwitchCase obj= new EmployeeSwitchCase();
             // obj.Cal_Switchwage();
 
-            MonthWage obj= new MonthWage();
-            obj.Cal_Monthwage();
+            // MonthWage obj= new MonthWage();
+            // obj.Cal_Monthwage();
+
+            LimitedWageCalculation obj= new LimitedWageCalculation();
+            obj.Cal_lmtWage();
 
 
 
