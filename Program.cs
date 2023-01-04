@@ -19,9 +19,14 @@ namespace EmployeeWageproblem
             // MonthWage obj= new MonthWage();
             // obj.Cal_Monthwage();
 
-            LimitedWageCalculation obj= new LimitedWageCalculation();
-            obj.Cal_lmtWage();
+            // LimitedWageCalculation obj= new LimitedWageCalculation();
+            //obj.Cal_lmtWage();
 
+
+            //EmployeeRefactoring.Cal_Wage();
+            RefactoringCode obj = new RefactoringCode();
+            obj.Cal_Wage("Deloitte", 20, 15, 80);
+            obj.Cal_Wage("Adobe", 25, 10, 60);
 
 
         }
