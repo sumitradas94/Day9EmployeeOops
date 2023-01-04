@@ -6,8 +6,8 @@ namespace EmployeeWageproblem
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to employeewage computation program");
-            EmployeeAttendance.CheckAttendance();
+            EmployeeAttendance emp=new EmployeeAttendance();
+            emp.checkatt();
         }
     }
 
