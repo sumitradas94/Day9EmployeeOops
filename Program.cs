@@ -13,8 +13,11 @@ namespace EmployeeWageproblem
             //  EmployeeCal_PartTimeWage obj= new EmployeeCal_PartTimeWage();
             // obj.Cal_Pwage();
 
-            EmployeeSwitchCase obj= new EmployeeSwitchCase();
-            obj.Cal_Switchwage();
+            // EmployeeSwitchCase obj= new EmployeeSwitchCase();
+            // obj.Cal_Switchwage();
+
+            MonthWage obj= new MonthWage();
+            obj.Cal_Monthwage();
 
 
 
