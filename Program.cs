@@ -6,8 +6,11 @@ namespace EmployeeWageproblem
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to employeewage computation program");
-            EmployeeAttendance.CheckAttendance();
+
+            EmployeeCal_RegWage obj = new EmployeeCal_RegWage();
+            obj.Cal_Rwage();
+            
+
         }
     }
 
